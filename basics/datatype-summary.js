@@ -43,7 +43,11 @@ const anotherId = Symbol("123");
 // Declare a variable isStudent and set it to true or false based on whether you're a student. Print a sentence using this variable.
 // Declare a variable city to store the name of your city and print it.
 
+let age = 28
+console.log(`i am ${age} years old`)
 
+let isStudent = true
+console.log(`are you a student? ${isStudent}`);
 
 
 
@@ -54,6 +58,24 @@ const anotherId = Symbol("123");
 // Store the string "JavaScript is fun!" in a variable. Print the length of the string.
 // Take the string "Learning JavaScript", and convert it to uppercase, then print the result.
 // Write a sentence and find the position of the word "JavaScript" in the sentence "I love learning JavaScript".
+
+let firstName = new String('bilal')
+let lastName = new String('ahmed')
+console.log(`${firstName} ${lastName}`);
+
+let newString = new String('javascript is fun')
+console.log(newString.length);
+console.log(newString.toUpperCase());
+
+let sentence = "I love learning JavaScript";
+let position = sentence.indexOf("JavaScript");
+
+console.log(position);  // Output: 17
+
+
+
+
+
 
 // 3. Numbers Practice:
 // Create two number variables, x and y. Assign them values and print their sum, difference, product, and quotient.
